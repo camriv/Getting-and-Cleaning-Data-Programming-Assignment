@@ -8,7 +8,7 @@ This code describes how to use the script **run_analysis.R** to combine, streaml
 + subjectID - identifies the subject (30 individuals) who performed the activity and from whom measurements were taken from
 + activity - describes the activity being done by the subject (walking, walking upstairs, walking downstairs, sitting, standing, laying)
 + 66 mean and standard deviation measurements - average for all measurements taken for each subjectID-activity combination
-+  timeBody Acc Mean-X
++ - timeBody Acc Mean-X
 + - time Body Acc Mean-Y
 + - time Body Acc Mean-Z
 + - time Body Acc StdDev-X
