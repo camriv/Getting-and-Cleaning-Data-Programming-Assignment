@@ -2,6 +2,79 @@
 
 This code describes how to use the script **run_analysis.R** to combine, streamline, label, and summarize the original data set into **tidydata.txt**.
 
+## Properties of **tidydata.txt**:
+1. Number of records = 35 records of unique *subjectID-activity* combinations
+2. Number of variables = 68
++ subjectID - identifies the subject (30 individuals) who performed the activity and from whom measurements were taken from
++ activity - describes the activity being done by the subject (walking, walking upstairs, walking downstairs, sitting, standing, laying)
++ 66 mean and standard deviation measurements - average for all measurements taken for each subjectID-activity combination
++  timeBody Acc Mean-X
++ - time Body Acc Mean-Y
++ - time Body Acc Mean-Z
++ - time Body Acc StdDev-X
++ - time Body Acc StdDev-Y
++ - time Body Acc StdDev-Z
++ - time Gravity Acc Mean-X
++ - time Gravity Acc Mean-Y
++ - time Gravity Acc Mean-Z
++ - time Gravity Acc StdDev-X
++ - time Gravity Acc StdDev-Y
++ - time Gravity Acc StdDev-Z
++ - time Body Acc Jerk Mean-X
++ - time Body Acc Jerk Mean-Y
++ - time Body Acc Jerk Mean-Z
++ - time Body Acc Jerk StdDev-X
++ - time Body Acc Jerk StdDev-Y
++ - time Body Acc Jerk StdDev-Z
++ - time Body Gyro Mean-X
++ - time Body Gyro Mean-Y
++ - time Body Gyro Mean-Z
++ - time Body Gyro StdDev-X
++ - time Body Gyro StdDev-Y
++ - time Body Gyro StdDev-Z
++ - time Body Gyro Jerk Mean-X
++ - time Body Gyro Jerk Mean-Y
++ - time Body Gyro Jerk Mean-Z
++ - time Body Gyro Jerk StdDev-X
++ - time Body Gyro Jerk StdDev-Y
++ - time Body Gyro Jerk StdDev-Z
++ - time Body Acc Magnitude Mean
++ - time Body Acc Magnitude StdDev
++ - time Gravity Acc Magnitude Mean
++ - time Gravity Acc Magnitude StdDev
++ - time Body Acc Jerk Magnitude Mean
++ - time Body Acc Jerk Magnitude StdDev
++ - time Body Gyro Magnitude Mean
++ - time Body Gyro Magnitude StdDev
++ - time Body Gyro Jerk Magnitude Mean
++ - time Body Gyro Jerk Magnitude StdDev
++ - freq Body Acc Mean-X
++ - freq Body Acc Mean-Y 
++ - freq Body Acc Mean-Z
++ - freq Body Acc StdDev-X 
++ - freq Body Acc StdDev-Y
++ - freq Body Acc StdDev-Z 
++ - freq Body Acc Jerk Mean-X
++ - freq Body Acc Jerk Mean-Y 
++ - feq Body Acc Jerk Mean-Z
++ - freq Body Acc Jerk StdDev-X
++ - freq Body Acc Jerk StdDev-Y
++ - freq Body Acc Jerk StdDev-Z
++ - freq Body Gyro Mean-X
++ - freq Body Gyro Mean-Y
++ - freq Body Gyro Mean-Z
++ - freq Body Gyro StdDev-X
++ - freq Body Gyro StdDev-Y
++ - freq Body Gyro StdDev-Z
++ - freq Body Acc Magnitude Mean
++ - freq Body Acc Magnitude StdDev
++ - freq Body Acc Jerk Magnitude Mean
++ - freq Body Acc Jerk Magnitude StdDev
++ - freq Body Gyro Magnitude Mean
++ - freq Body Gyro Magnitude StdDev
++ - freq Body Gyro Jerk Magnitude Mean
++ - freq Body Gyro Jerk Magnitude StdDev
+
 ## Pre-cleaning Steps
 #### 1. Create and set the project directory
 #### 2. Download the raw data set to a temporary file, then extract files to project directory
