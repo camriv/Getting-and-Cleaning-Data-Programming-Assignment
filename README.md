@@ -2,14 +2,14 @@
 Files for Week 4 Programming Assignment
 
 ## Human Activity Recognition Using Smartphones Dataset  - Tidy Version
-This version includes the following additional files
+This version includes the following additional files:
 - 'README.md' - updated to describe additional files to the tidy version of this dataset
 - 'run_analysis.R' - script to produce the tidy data
 - 'codebook.md' - describes the data cleaning script to produce the tidy data
 - 'tidydata.txt' - the cleaned data
 
 ### Original Data from:
-### Human Activity Recognition Using Smartphones Dataset (Version 1.0)
+#### Human Activity Recognition Using Smartphones Dataset (Version 1.0)
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto  
 Smartlab - Non Linear Complex Systems Laboratory  
 DITEN - Università degli Studi di Genova  
